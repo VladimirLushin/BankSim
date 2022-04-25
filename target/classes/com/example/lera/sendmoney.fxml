@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="221.0" prefWidth="360.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lera.sendmoneyController">
+   <children>
+      <TextField fx:id="clientField" layoutX="22.0" layoutY="85.0" promptText="IBAN OR FULL NAME" />
+      <TextField fx:id="moneyField" layoutX="197.0" layoutY="85.0" promptText="money quantity" />
+      <TextField fx:id="oneTimeCodeField" layoutX="22.0" layoutY="148.0" promptText="ONE-TIME CODE" />
+      <Label fx:id="oneTimeCodeLabel" layoutX="23.0" layoutY="124.0" text="Label" />
+      <Button layoutX="246.0" layoutY="148.0" mnemonicParsing="false" text="send" onAction="#search" />
+   </children>
+</AnchorPane>
